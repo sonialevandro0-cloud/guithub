@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sugerencias Creativas – Eloquia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 32px;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    .sugerencias-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-left: 5px solid #4CAF50;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .card i {
+      font-size: 24px;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #444;
+      font-size: 15.5px;
+      line-height: 1.5;
+    }
+
+    .card h4 {
+      margin: 10px 0 8px;
+      font-size: 16.5px;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="titulo"><i class="fas fa-feather-alt"></i> Recomendaciones de Estilo – Eloquia</h2>
+
+  <div class="sugerencias-grid">
+    <div class="card">
+      <i class="fas fa-comments"></i>
+      <h4>Evita el lenguaje coloquial</h4>
+      <p>Reemplaza expresiones informales por vocabulario académico o neutro.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-sync-alt"></i>
+      <h4>Usa estructuras activas</h4>
+      <p>Prefiere frases con sujeto claro que realice la acción, en lugar de pasivas.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-redo"></i>
+      <h4>Reduce repeticiones</h4>
+      <p>Evita repetir palabras en frases seguidas. Usa sinónimos o reestructura.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-language"></i>
+      <h4>Conectores formales</h4>
+      <p>Incluye conectores como "además", "sin embargo" o "por consiguiente".</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-highlighter"></i>
+      <h4>Sé preciso y concreto</h4>
+      <p>Evita frases vagas como “cosas” o “algo”. Sé específico en tus ideas.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-compress-alt"></i>
+      <h4>Oraciones claras</h4>
+      <p>Divide oraciones largas en frases más comprensibles y estructuradas.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-spell-check"></i>
+      <h4>Evita errores básicos</h4>
+      <p>Corrige faltas de ortografía y asegúrate de mantener la coherencia.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-pen-fancy"></i>
+      <h4>Cierra con fuerza</h4>
+      <p>No termines con frases vagas. Finaliza con ideas bien formuladas.</p>
+    </div>
+  </div>
+
+</body>
+</html>
